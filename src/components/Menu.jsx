@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import { Link, useHistory } from 'react-router-dom';
-import { auth } from '..//firebaseconfig'
+import { auth, store } from '../firebaseconfig'
 
 const Menu = () => {
     const historial = useHistory()
