@@ -11,20 +11,3 @@ export async function insert(local) { //TODO: continuar insert
     }
 }
 
-export class CRUD {
-    getAll() {
-        return db;
-    }
-
-    create(name) {
-        return db.add(name);
-    }
-
-    update(id, value) {
-        return db.doc(id).update(value);
-    }
-
-    delete(id) {
-        return db.doc(id).delete();
-    }
-}
