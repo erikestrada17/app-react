@@ -1,4 +1,4 @@
-import store from './firebaseconfig'
+import { store } from './firebaseconfig'
 
 const db = store
 

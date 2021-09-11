@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { store } from "../firebaseconfig";
 
 const Local = () => {
@@ -17,6 +17,7 @@ const Local = () => {
       });
       setLocales(locales);
     });
+    console.log("locales:");
     console.log(locales);
   }, []);
   return (
