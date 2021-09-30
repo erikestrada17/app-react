@@ -1,6 +1,9 @@
-import { store } from './firebaseconfig'
+// import { store } from './firebaseconfig'
 
-const db = store
+// const db = store
+import {store} from "./firebaseconfig";
+
+const db = store.collection("/locales");
 
 class CRUD {
     getAll() {

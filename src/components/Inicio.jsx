@@ -19,6 +19,7 @@ const Inicio = () => {
     console.log(get);
     console.log("getAll:");
     console.log(get.getAll());
+    
   }, []);
   return (
     <div>
